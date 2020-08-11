@@ -6,10 +6,6 @@ router.post('/', async (req, res) => {
     res.status(200).json(controller.create(req))
 });
 
-router.post('/', async (req, res) => {
-    res.status(200).json()
-});
-
 router.put('/:id', async (req, res) => {
     res.status(200).json(controller.update(req))
 });
