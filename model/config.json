@@ -1,0 +1,10 @@
+{
+  "development": {
+    "username": "developer",
+    "password": "admindevdb",
+    "database": "prices",
+    "host": "10.2.0.100",
+    "dialect": "mysql",
+    "OperatorAliases": "Op"
+  }
+}
