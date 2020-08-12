@@ -15,7 +15,7 @@ exports.update = (req) => {
 }
 
 exports.delete = (req) => {
-    delete arrayData[req.params.id]
+    delete arrayData[req.params.id - 1]
     return arrayData;
 }
 
